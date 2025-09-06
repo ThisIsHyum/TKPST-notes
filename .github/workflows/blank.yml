@@ -24,9 +24,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: logseq/publish-spa@v0.3.0
+        with:
+          graph-directory: pages
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: Deploy 🚀
+      - name: вeploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: www
