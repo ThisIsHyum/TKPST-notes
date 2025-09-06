@@ -424,4 +424,5 @@
  :builtin-pages? false
  :excluded-pages? true}
  :graph/forcesettings {:link-dist 180
- :charge-strength -400}}
+ :charge-strength -400}
+ :publishing/all-pages-public? true}
