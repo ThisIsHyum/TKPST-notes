@@ -26,7 +26,7 @@ jobs:
       - uses: logseq/publish-spa@v0.3.0
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: вeploy
+      - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: www
