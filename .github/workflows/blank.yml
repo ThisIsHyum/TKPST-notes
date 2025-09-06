@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@v0.1
+        uses: pengx17/logseq-publish@v0.1.8
         with:
           version: latest
       - name: add a nojekyll file # to make sure asset paths are correctly identified
