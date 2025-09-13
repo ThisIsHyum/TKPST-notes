@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["основы проектирования баз данных"]
+ :favorites ["основы алгоритмизации и программирования" "основы проектирования баз данных"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -421,4 +421,8 @@
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false
  :orphan-pages? true
- :builtin-pages? false}}
+ :builtin-pages? false
+ :excluded-pages? true}
+ :graph/forcesettings {:link-dist 180
+ :charge-strength -400}
+ :publishing/all-pages-public? true}
