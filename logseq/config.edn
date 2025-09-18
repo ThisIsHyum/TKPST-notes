@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["основы алгоритмизации и программирования" "основы проектирования баз данных"]
+ :favorites ["Элементы высшей математики" "основы алгоритмизации и программирования" "основы проектирования баз данных"]
 
  ;; Set flashcards interval.
  ;; Expected value:
