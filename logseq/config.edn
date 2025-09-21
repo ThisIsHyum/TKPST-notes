@@ -425,4 +425,5 @@
  :excluded-pages? true}
  :graph/forcesettings {:link-dist 150
  :charge-strength -400}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :ui/show-brackets? false}
