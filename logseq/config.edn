@@ -426,4 +426,6 @@
  :graph/forcesettings {:link-dist 150
  :charge-strength -400}
  :publishing/all-pages-public? true
- :ui/show-brackets? false}
+ :ui/show-brackets? false
+ :feature/enable-journals? false
+ :default-home {:page "contents"}}
