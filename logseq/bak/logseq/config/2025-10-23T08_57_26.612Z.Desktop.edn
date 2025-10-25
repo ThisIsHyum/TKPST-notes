@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["основы алгоритмизации и программирования" "основы проектирования баз данных"]
+ :favorites ["элементы высшей математики" "Элементы высшей математики" "основы алгоритмизации и программирования" "основы проектирования баз данных"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -423,6 +423,9 @@
  :orphan-pages? true
  :builtin-pages? false
  :excluded-pages? true}
- :graph/forcesettings {:link-dist 180
- :charge-strength -400}
- :publishing/all-pages-public? true}
+ :graph/forcesettings {:link-dist 120
+ :charge-strength -900}
+ :publishing/all-pages-public? true
+ :ui/show-brackets? false
+ :feature/enable-journals? false
+ :default-home {:page "contents"}}
